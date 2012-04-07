@@ -3,15 +3,74 @@
 void testApp::setup()  
 {  
     
-    int bufferSize = 512;
+    ofSetVerticalSync(true);
+	ofBackground(54, 54, 54);	
 
-    ofSoundStreamSetup(2,2,this, 44100, 512, 4);  
+    
+    int bufferSize = 256;
+
+    ofSoundStreamSetup(2,2,this, 44100, bufferSize, 4);  
     leftAudio.assign(bufferSize, 0.0);
     rightAudio.assign(bufferSize, 0.0);  
 }
 
 void testApp::draw(){
 //
+    
+    ofSetColor(225);
+	ofDrawBitmapString("AUDIO INPUT/OUTPUT", 32, 32);
+	ofDrawBitmapString("press 's' to unpause the audio\n'e' to pause the audio", 31, 92);
+	
+	ofNoFill();
+	
+	// draw the left channel:
+	ofPushStyle();
+    ofPushMatrix();
+    ofTranslate(32, 170, 0);
+    
+    ofSetColor(225);
+    ofDrawBitmapString("Left Channel", 4, 18);
+    
+    ofSetLineWidth(1);	
+    ofRect(0, 0, 512, 200);
+    
+    ofSetColor(245, 58, 135);
+    ofSetLineWidth(3);
+    
+    ofBeginShape();
+    for (int i = 0; i < leftAudio.size(); i++){
+        ofVertex(i*2, 100 -leftAudio[i]*180.0f);
+    }
+    ofEndShape(false);
+    
+    ofPopMatrix();
+	ofPopStyle();
+    
+	// draw the right channel:
+	ofPushStyle();
+    ofPushMatrix();
+    ofTranslate(32, 370, 0);
+    
+    ofSetColor(225);
+    ofDrawBitmapString("Right Channel", 4, 18);
+    
+    ofSetLineWidth(1);	
+    ofRect(0, 0, 512, 200);
+    
+    ofSetColor(245, 58, 135);
+    ofSetLineWidth(3);
+    
+    ofBeginShape();
+    for (int i = 0; i < rightAudio.size(); i++){
+        ofVertex(i*2, 100 -rightAudio[i]*180.0f);
+    }
+    ofEndShape(false);
+    
+    ofPopMatrix();
+	ofPopStyle();
+
+    
+    
 }
 
 void testApp::update(){
