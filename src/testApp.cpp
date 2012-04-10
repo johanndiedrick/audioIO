@@ -1,4 +1,13 @@
 #include "testApp.h"
+#include <stdio.h>
+
+#include "ofxAUPlugin.h"
+
+ofxAUPlugin delay;
+
+using namespace std;
+
+
 
 void testApp::setup()  
 {  
@@ -7,11 +16,22 @@ void testApp::setup()
 	ofBackground(54, 54, 54);	
 
     
-    int bufferSize = 256;
+    bufferSize = 512;
 
     ofSoundStreamSetup(2,2,this, 44100, bufferSize, 4);  
     leftAudio.assign(bufferSize, 0.0);
     rightAudio.assign(bufferSize, 0.0);  
+    
+    delay.loadPreset("delay.aupreset");
+    
+    printf("input ch:%i, output ch:%i\n", delay.numInput(), delay.numOutput());
+
+    delay.listParamInfo();
+
+    
+   // delay.setParam("feedback", 99);
+    delay.setParam("delay time", 0.5);
+
 }
 
 void testApp::draw(){
@@ -32,7 +52,7 @@ void testApp::draw(){
     ofDrawBitmapString("Left Channel", 4, 18);
     
     ofSetLineWidth(1);	
-    ofRect(0, 0, 512, 200);
+    ofRect(0, 0, bufferSize*2, 200);
     
     ofSetColor(245, 58, 135);
     ofSetLineWidth(3);
@@ -55,7 +75,7 @@ void testApp::draw(){
     ofDrawBitmapString("Right Channel", 4, 18);
     
     ofSetLineWidth(1);	
-    ofRect(0, 0, 512, 200);
+    ofRect(0, 0, bufferSize*2, 200);
     
     ofSetColor(245, 58, 135);
     ofSetLineWidth(3);
@@ -69,7 +89,7 @@ void testApp::draw(){
     ofPopMatrix();
 	ofPopStyle();
 
-    
+    cout << leftAudio.size() << "\n";     
     
 }
 
@@ -94,7 +114,8 @@ void testApp::audioOut    (float * output, int bufferSize, int nChannels)
         output[i*2]     = leftAudio[i] ;  
         output[(i*2)+1] = rightAudio[i];  
     }  
-    
+    delay.process(output, output);
+
 }  
 
 //--------------------------------------------------------------

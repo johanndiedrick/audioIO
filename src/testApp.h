@@ -25,15 +25,11 @@ class testApp : public ofBaseApp{
         void audioIn(float * input, int bufferSize, int nChannels); 
         void audioOut(float * input, int bufferSize, int nChannels);
 		
-        float smoothedVol;
-        float scaledVol;
+      
     
 		ofSoundStream soundStream;
 
-		float 	pan;
-		int		sampleRate;
-		bool 	bNoise;
-		float 	volume;
+		
         
         vector <float> leftAudio;
         vector <float> rightAudio;
@@ -43,16 +39,11 @@ class testApp : public ofBaseApp{
 
 		vector <float> leftAudioOut;
 		vector <float> rightAudioOut;
-    
         
+        int bufferSize;
     
     
 		
-		//------------------- for the simple sine wave synthesis
-		float 	targetFrequency;
-		float 	phase;
-		float 	phaseAdder;
-		float 	phaseAdderTarget;
 };
 
 #endif

@@ -4,8 +4,21 @@ r1
 cCheck dependencies
 cProcessInfoPlistFile /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/audioIODebug.app/Contents/Info.plist openFrameworks-Info.plist
 cProcessPCH++ /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-eebkxgswsuphaeaerztbpbagtdsj/Carbon.h.gch /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.llvmgcc42
+cProcessPCH++ /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-cvjwtngxndsyqghkmeuxnqjfqhem/Carbon.h.gch /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 objective-c++ com.apple.compilers.llvmgcc42
 cCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/main.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/src/main.cpp normal i386 c++ com.apple.compilers.llvmgcc42
 cCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/testApp.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/src/testApp.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/AUOutputBL.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/AUOutputBL.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAAudioChannelLayout.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAAudioChannelLayout.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAAudioUnit.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAAudioUnit.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAAUProcessor.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAAUProcessor.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CACFDictionary.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CACFDictionary.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CACFNumber.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CACFNumber.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CACFString.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CACFString.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAComponent.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAComponent.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAComponentDescription.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAComponentDescription.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CADebugMacros.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CADebugMacros.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAStreamBasicDescription.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAStreamBasicDescription.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/ofxAUPlugin.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/src/ofxAUPlugin.mm normal i386 objective-c++ com.apple.compilers.llvmgcc42
 cLd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/audioIODebug.app/Contents/MacOS/audioIODebug normal i386
 cPhaseScriptExecution "Run Script" /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
 cPBXCp ../../../libs/glut/lib/osx/GLUT.framework bin/audioIODebug.app/Contents/Frameworks/GLUT.framework
@@ -16,6 +29,11 @@ c000000004EB300E10000000000000D03
 t1320354017
 s3331
 i"syslimits.h"
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/stdarg.h
+c000000004EB300DF00000000000010DD
+t1320354015
+s4317
 
 N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/stddef.h
 c000000004EB300E00000000000003197
@@ -54,6 +72,31 @@ c000000004F25E3DC000000000039E5E0
 t1327883228
 s3794400
 
+N/System/Library/Frameworks/AudioToolbox.framework/Headers/AUGraph.h
+c000000004E3879A0000000000000629C
+t1312324000
+s25244
+
+N/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c000000004F25E3DB000000000000C2D0
+t1327883227
+s49872
+
+N/System/Library/Frameworks/AudioUnit.framework/Headers/AUComponent.h
+c000000004E387A04000000000001002F
+t1312324100
+s65583
+
+N/System/Library/Frameworks/AudioUnit.framework/Headers/AudioUnit.h
+c000000004E387A04000000000000041E
+t1312324100
+s1054
+
+N/System/Library/Frameworks/AudioUnit.framework/Headers/MusicDevice.h
+c000000004E387A040000000000004933
+t1312324100
+s18739
+
 N/System/Library/Frameworks/Carbon.framework/Carbon
 c000000004F25E3D90000000000006530
 t1327883225
@@ -74,10 +117,40 @@ c000000004F25E3DB00000000001195D0
 t1327883227
 s1152464
 
+N/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudio.h
+c000000004E420326000000000000034C
+t1312949030
+s844
+
+N/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudioTypes.h
+c000000004E42032600000000000106CA
+t1312949030
+s67274
+
 N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 c000000004F25E3D8000000000060E710
 t1327883224
 s6350608
+
+N/System/Library/Frameworks/CoreFoundation.framework/Headers/CFByteOrder.h
+c000000004E794B6C0000000000001983
+t1316572012
+s6531
+
+N/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h
+c000000004E794B6C0000000000000EAB
+t1316572012
+s3755
+
+N/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h
+c000000004E794B6C000000000000B25F
+t1316572012
+s45663
+
+N/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004E794B6C0000000000000B67
+t1316572012
+s2919
 
 N/System/Library/Frameworks/CoreServices.framework/CoreServices
 c000000004F25E3DF000000000000B870
@@ -129,6 +202,278 @@ c000000004F25E516000000000032B6C0
 t1327883542
 s3323584
 
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/addons/ofxAUPluginNew/example-simple/src/testApp.h
+c000000004F8436F400000000000001FC
+t1334064884
+s508
+i"ofMain.h"
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/addons/ofxAUPluginNew/libs/AUOutputBL.h
+c000000004F8436F400000000000013CD
+t1334064884
+s5069
+i"CAStreamBasicDescription.h"
+i<CoreServices/CoreServices.h>
+i<AssertMacros.h>
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/addons/ofxAUPluginNew/libs/CAAUProcessor.h
+c000000004F8436F4000000000000387C
+t1334064884
+s14460
+i"CAStreamBasicDescription.h"
+i"CAAudioUnit.h"
+i"AUOutputBL.h"
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/addons/ofxAUPluginNew/libs/CAAudioChannelLayout.h
+c000000004F8436F40000000000001B8C
+t1334064884
+s7052
+i<CoreAudio/CoreAudioTypes.h>
+i<CoreFoundation/CoreFoundation.h>
+i<CoreAudioTypes.h>
+i<CoreFoundation.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i"CAReferenceCounted.h"
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/addons/ofxAUPluginNew/libs/CAAudioUnit.h
+c000000004F8436F40000000000003E48
+t1334064884
+s15944
+i<CoreServices/CoreServices.h>
+i<CoreAudio/CoreAudio.h>
+i<AudioUnit/AudioUnit.h>
+i<AudioToolbox/AUGraph.h>
+i<ConditionalMacros.h>
+i<CoreServices.h>
+i<CoreAudioTypes.h>
+i<AudioUnit.h>
+i<AUGraph.h>
+i<MusicDevice.h>
+i<vector>
+i"CAStreamBasicDescription.h"
+i"CAComponent.h"
+i"CAAudioChannelLayout.h"
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/addons/ofxAUPluginNew/libs/CACFDictionary.h
+c000000004F8436F400000000000022F2
+t1334064884
+s8946
+i<CoreFoundation/CoreFoundation.h>
+i<CoreFoundation.h>
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/addons/ofxAUPluginNew/libs/CACFNumber.h
+c000000004F8436F40000000000001CC9
+t1334064884
+s7369
+i<CoreAudio/CoreAudioTypes.h>
+i<CoreFoundation/CFNumber.h>
+i<CoreAudioTypes.h>
+i<CFNumber.h>
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/addons/ofxAUPluginNew/libs/CACFString.h
+c000000004F8436F40000000000002B3C
+t1334064884
+s11068
+i<CoreAudio/CoreAudioTypes.h>
+i<CoreFoundation/CFString.h>
+i<CoreAudioTypes.h>
+i<CFString.h>
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/addons/ofxAUPluginNew/libs/CAComponent.h
+c000000004F8436F4000000000000127F
+t1334064884
+s4735
+i<CoreServices/CoreServices.h>
+i<ConditionalMacros.h>
+i<CoreServices.h>
+i"CAComponentDescription.h"
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/addons/ofxAUPluginNew/libs/CAComponentDescription.h
+c000000004F8436F40000000000001651
+t1334064884
+s5713
+i<CoreServices/CoreServices.h>
+i<AudioUnit/AudioUnit.h>
+i<ConditionalMacros.h>
+i<CoreServices.h>
+i<AudioUnit.h>
+i"CACFDictionary.h"
+i<stdio.h>
+i<string.h>
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/addons/ofxAUPluginNew/libs/CADebugMacros.h
+c000000004F8436F40000000000004C0D
+t1334064884
+s19469
+i<CoreAudio/CoreAudioTypes.h>
+i"CoreAudioTypes.h"
+i"CADebugPrintf.h"
+i<pthread.h>
+i"CAHostTimeBase.h"
+i"CAHostTimeBase.h"
+i"CADebugger.h"
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/addons/ofxAUPluginNew/libs/CAMath.h
+c000000004F8436F40000000000000C6B
+t1334064884
+s3179
+i<CoreAudio/CoreAudioTypes.h>
+i<CoreAudioTypes.h>
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/addons/ofxAUPluginNew/libs/CAReferenceCounted.h
+c000000004F8436F40000000000000DA3
+t1334064884
+s3491
+i<libkern/OSAtomic.h>
+i<CoreServices.h>
+i"CAWindows.h"
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/addons/ofxAUPluginNew/libs/CAStreamBasicDescription.h
+c000000004F8436F4000000000000263C
+t1334064884
+s9788
+i<CoreAudio/CoreAudioTypes.h>
+i<CoreFoundation/CoreFoundation.h>
+i"CoreAudioTypes.h"
+i"CoreFoundation.h"
+i"CADebugMacros.h"
+i<string.h>
+i<stdio.h>
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/addons/ofxAUPluginNew/src/ofxAUPlugin.h
+c000000004F8436F400000000000004D5
+t1334064884
+s1237
+i"ofMain.h"
+i"CAAUProcessor.h"
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/example-simple/src/main.cpp
+c000000004F8436F4000000000000019E
+t1334064884
+s414
+i"ofMain.h"
+i"testApp.h"
+i"ofAppGlutWindow.h"
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/example-simple/src/testApp.cpp
+c000000004F8436F40000000000000B96
+t1334064884
+s2966
+i"testApp.h"
+i"ofxAUPlugin.h"
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/AUOutputBL.cpp
+c000000004F8436F400000000000016CA
+t1334064884
+s5834
+i"AUOutputBL.h"
+i<AudioUnit/AUComponent.h>
+i<AUComponent.h>
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAAUProcessor.cpp
+c000000004F8436F400000000000052AF
+t1334064884
+s21167
+i"CAAUProcessor.h"
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAAUProcessor.h
+c000000004F8436F4000000000000387C
+t1334064884
+s14460
+i"CAStreamBasicDescription.h"
+i"CAAudioUnit.h"
+i"AUOutputBL.h"
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAAudioChannelLayout.cpp
+c000000004F8436F4000000000000186D
+t1334064884
+s6253
+i"CAAudioChannelLayout.h"
+i<stdlib.h>
+i<string.h>
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAAudioUnit.cpp
+c000000004F8436F4000000000000923F
+t1334064884
+s37439
+i"CAAudioUnit.h"
+i<AudioUnit/MusicDevice.h>
+i<MusicDevice.h>
+i"CAReferenceCounted.h"
+i"AUOutputBL.h"
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CACFDictionary.cpp
+c000000004F8436F4000000000000305A
+t1334064884
+s12378
+i"CACFDictionary.h"
+i"CACFString.h"
+i"CACFNumber.h"
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CACFNumber.cpp
+c000000004F8436F40000000000000E51
+t1334064884
+s3665
+i"CACFNumber.h"
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CACFString.cpp
+c000000004F8436F4000000000000104A
+t1334064884
+s4170
+i"CACFString.h"
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAComponent.cpp
+c000000004F8436F400000000000021FD
+t1334064884
+s8701
+i"CAComponent.h"
+i"CAComponentDescription.h"
+i"CACFDictionary.h"
+i<stdlib.h>
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAComponentDescription.cpp
+c000000004F8436F40000000000001283
+t1334064884
+s4739
+i"CAComponentDescription.h"
+i<ctype.h>
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CADebugMacros.cpp
+c000000004F8436F40000000000000C0B
+t1334064884
+s3083
+i"CADebugMacros.h"
+i<stdio.h>
+i<stdarg.h>
+i<syslog.h>
+i<stdio.h>
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAStreamBasicDescription.cpp
+c000000004F8436F40000000000004689
+t1334064884
+s18057
+i"CAStreamBasicDescription.h"
+i"CAMath.h"
+i<CoreFoundation/CFByteOrder.h>
+i<CFByteOrder.h>
+i<stddef.h>
+i"CALogMacros.h"
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/src/ofxAUPlugin.h
+c000000004F8436F400000000000004D5
+t1334064884
+s1237
+i"ofMain.h"
+i"CAAUProcessor.h"
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/src/ofxAUPlugin.mm
+c000000004F8436F40000000000001D8B
+t1334064884
+s7563
+i"ofxAUPlugin.h"
+
 N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../libs/glut/lib/osx/GLUT.framework
 c000000004EF7689C00000000000000CC
 t1324837020
@@ -140,7 +485,7 @@ t1295145008
 s600728
 
 N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/audioIODebug.app
-t1333801069
+t1334082705
 s102
 
 N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/audioIODebug.app/Contents/Frameworks/GLUT.framework
@@ -152,25 +497,89 @@ t1333765856
 s997
 
 N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/audioIODebug.app/Contents/MacOS/audioIODebug
-t1333801069
-s4849120
+t1334082768
+s4907380
 
 N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/audioIODebug.app/Contents/PkgInfo
 t1333765856
 s8
 
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/AUOutputBL.o
+t1334081465
+s15344
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAAUProcessor.o
+t1334081466
+s69940
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAAudioChannelLayout.o
+t1334081465
+s11360
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAAudioUnit.o
+t1334081466
+s122384
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CACFDictionary.o
+t1334081466
+s43228
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CACFNumber.o
+t1334081466
+s6832
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CACFString.o
+t1334081466
+s6744
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAComponent.o
+t1334081467
+s24532
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAComponentDescription.o
+t1334081466
+s12372
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CADebugMacros.o
+t1334081467
+s2800
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAStreamBasicDescription.o
+t1334081462
+s22156
+
 N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/audioIODebug.LinkFileList
-c000000004F7FA6E0000000000000013D
-t1333765856
-s317
+c000000004F8477A70000000000000912
+t1334081447
+s2322
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/main-82227D70F1DD098B.o
+t2
+s0
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/main-845A7081D9719653.o
+t2
+s0
 
 N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/main.o
-t1333765874
-s81444
+t1333843585
+s81268
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/ofxAUPlugin.o
+t1334081469
+s194280
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/testApp-FAA3DC9B2355198C.o
+t2
+s0
+
+N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/testApp-FCDBCFAC0AE9A654.o
+t2
+s0
 
 N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/testApp.o
-t1333801064
-s90160
+t1334082704
+s147144
 
 N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
 c000000004F7FA6E00000000000000114
@@ -186,15 +595,16 @@ i"testApp.h"
 i"ofAppGlutWindow.h"
 
 N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/src/testApp.cpp
-c000000004F8030AF0000000000000C0D
-t1333801135
-s3085
+c000000004F847CE50000000000000DAB
+t1334082789
+s3499
 i"testApp.h"
+i<stdio.h>
 
 N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/src/testApp.h
-c000000004F7FA4DA00000000000004B1
-t1333765338
-s1201
+c000000004F80D64C00000000000003C3
+t1333843532
+s963
 i"ofMain.h"
 
 N/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/libs/cairo/include/cairo/cairo-deprecated.h
@@ -1417,10 +1827,20 @@ t1309546090
 s7267
 i<TargetConditionals.h>
 
+N/usr/include/AssertMacros.h
+c000000004DDD44FB000000000000E6DF
+t1306346747
+s59103
+
 N/usr/include/TargetConditionals.h
 c000000004DDD44FB00000000000031E9
 t1306346747
 s12777
+
+N/usr/include/ctype.h
+c000000004E360D4D0000000000002C18
+t1312165197
+s11288
 
 N/usr/include/errno.h
 c000000004E360D4B00000000000003EB
@@ -1477,6 +1897,11 @@ c000000004E41FFE900000000000016A2
 t1312948201
 s5794
 
+N/usr/include/syslog.h
+c000000004E360D4B00000000000003EC
+t1312165195
+s1004
+
 N/usr/include/termios.h
 c000000004E360D4B00000000000004D4
 t1312165195
@@ -1487,6 +1912,10 @@ c000000004E360D4E0000000000006662
 t1312165198
 s26210
 
+N/var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-cvjwtngxndsyqghkmeuxnqjfqhem/Carbon.h.gch
+t1334081464
+s46010608
+
 N/var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-eebkxgswsuphaeaerztbpbagtdsj/Carbon.h.gch
 t1333765864
 s40824816
@@ -1496,6 +1925,48 @@ c000000004E26C9240000000000000277
 t1311164708
 s631
 
+CBuild AST from /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/example-simple/src/main.cpp
+r0
+
+CBuild AST from /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/example-simple/src/testApp.cpp
+r0
+
+CBuild AST from /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/AUOutputBL.cpp
+r0
+
+CBuild AST from /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAAUProcessor.cpp
+r0
+
+CBuild AST from /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAAudioChannelLayout.cpp
+r0
+
+CBuild AST from /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAAudioUnit.cpp
+r0
+
+CBuild AST from /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CACFDictionary.cpp
+r0
+
+CBuild AST from /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CACFNumber.cpp
+r0
+
+CBuild AST from /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CACFString.cpp
+r0
+
+CBuild AST from /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAComponent.cpp
+r0
+
+CBuild AST from /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAComponentDescription.cpp
+r0
+
+CBuild AST from /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CADebugMacros.cpp
+r0
+
+CBuild AST from /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAStreamBasicDescription.cpp
+r0
+
+CBuild AST from /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/src/ofxAUPlugin.mm
+r0
+
 CBuild AST from /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/src/main.cpp
 r0
 
@@ -1504,11 +1975,171 @@ r0
 
 CCheck dependencies
 r0
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesca1b3c306830b541^40853f306830b541^---0#1#0#--18"Check dependencies36"F9E242CC-3036-449C-930D-EF394A0CFEC7-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies5ad4a365b434b541^bf0ca665b434b541^---0#1#0#--18"Check dependencies36"71BFC97E-E04B-4A60-BB68-41A8DFB3C0D6-
+
+CCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/AUOutputBL.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/AUOutputBL.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s355774264.991965
+e355774265.276625
+r1
+xCompileC
+xbuild/audioIO.build/Debug/audioIO.build/Objects-normal/i386/AUOutputBL.o
+x/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/AUOutputBL.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection148"Compile /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/AUOutputBL.cpp162ffe38af34b541^bfd14639af34b541^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/AUOutputBL.cpp0000000000000000^2503"CompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/AUOutputBL.o ../../../addons/ofxAUPluginNew/libs/AUOutputBL.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/audioIODebug.hmap -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources/i386 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-eebkxgswsuphaeaerztbpbagtdsj/Carbon.h -c /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/AUOutputBL.cpp -o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/AUOutputBL.o36"04A8B5E3-5AD1-49C5-A9DE-BFD3369ABC0F-
+
+CCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAAUProcessor.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAAUProcessor.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s355774265.824539
+e355774266.562754
+r1
+xCompileC
+xbuild/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAAUProcessor.o
+x/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAAUProcessor.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection151"Compile /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAAUProcessor.cpp452fd339af34b541^b119903aaf34b541^---0#0#0#-19%DVTDocumentLocation2@159"file://localhost/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAAUProcessor.cpp0000000000000000^2515"CompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAAUProcessor.o ../../../addons/ofxAUPluginNew/libs/CAAUProcessor.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/audioIODebug.hmap -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources/i386 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-eebkxgswsuphaeaerztbpbagtdsj/Carbon.h -c /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAAUProcessor.cpp -o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAAUProcessor.o36"DD06803A-3BC1-4991-B463-8264B11B8FBB-
+
+CCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAAudioChannelLayout.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAAudioChannelLayout.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s355774265.277951
+e355774265.406865
+r1
+xCompileC
+xbuild/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAAudioChannelLayout.o
+x/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAAudioChannelLayout.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection158"Compile /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAAudioChannelLayout.cpp56464739af34b541^28296839af34b541^---0#0#0#-19%DVTDocumentLocation2@166"file://localhost/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAAudioChannelLayout.cpp0000000000000000^2543"CompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAAudioChannelLayout.o ../../../addons/ofxAUPluginNew/libs/CAAudioChannelLayout.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/audioIODebug.hmap -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources/i386 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-eebkxgswsuphaeaerztbpbagtdsj/Carbon.h -c /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAAudioChannelLayout.cpp -o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAAudioChannelLayout.o36"20FF7FF2-5B24-48AF-AC96-4DF44E82C4E0-
+
+CCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAAudioUnit.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAAudioUnit.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s355774265.408165
+e355774266.563593
+r1
+xCompileC
+xbuild/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAAudioUnit.o
+x/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAAudioUnit.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection149"Compile /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAAudioUnit.cpp18996839af34b541^6f47903aaf34b541^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAAudioUnit.cpp0000000000000000^2507"CompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAAudioUnit.o ../../../addons/ofxAUPluginNew/libs/CAAudioUnit.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/audioIODebug.hmap -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources/i386 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-eebkxgswsuphaeaerztbpbagtdsj/Carbon.h -c /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAAudioUnit.cpp -o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAAudioUnit.o36"0AB16F85-6E52-455C-B2EA-7327C4B055A8-
+
+CCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CACFDictionary.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CACFDictionary.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s355774266.564132
+e355774266.845858
+r1
+xCompileC
+xbuild/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CACFDictionary.o
+x/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CACFDictionary.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection152"Compile /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CACFDictionary.cppa987903aaf34b541^0f9bd83aaf34b541^---0#0#0#-19%DVTDocumentLocation2@160"file://localhost/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CACFDictionary.cpp0000000000000000^2519"CompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CACFDictionary.o ../../../addons/ofxAUPluginNew/libs/CACFDictionary.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/audioIODebug.hmap -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources/i386 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-eebkxgswsuphaeaerztbpbagtdsj/Carbon.h -c /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CACFDictionary.cpp -o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CACFDictionary.o36"C8373241-8F58-4056-A437-48C7B7B94D91-
+
+CCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CACFNumber.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CACFNumber.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s355774266.564718
+e355774266.705692
+r1
+xCompileC
+xbuild/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CACFNumber.o
+x/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CACFNumber.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection148"Compile /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CACFNumber.cppc1a8903aaf34b541^18b4b43aaf34b541^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CACFNumber.cpp0000000000000000^2503"CompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CACFNumber.o ../../../addons/ofxAUPluginNew/libs/CACFNumber.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/audioIODebug.hmap -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources/i386 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-eebkxgswsuphaeaerztbpbagtdsj/Carbon.h -c /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CACFNumber.cpp -o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CACFNumber.o36"6D032060-24A7-44C8-9434-7A90A5EE1F3D-
+
+CCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CACFString.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CACFString.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s355774266.706956
+e355774266.791841
+r1
+xCompileC
+xbuild/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CACFString.o
+x/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CACFString.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection148"Compile /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CACFString.cppe717b53aaf34b541^2fc0ca3aaf34b541^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CACFString.cpp0000000000000000^2503"CompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CACFString.o ../../../addons/ofxAUPluginNew/libs/CACFString.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/audioIODebug.hmap -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources/i386 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-eebkxgswsuphaeaerztbpbagtdsj/Carbon.h -c /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CACFString.cpp -o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CACFString.o36"8C439A19-E5F0-4658-AC4D-092B62F7BCEF-
+
+CCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAComponent.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAComponent.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s355774266.793179
+e355774267.028771
+r1
+xCompileC
+xbuild/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAComponent.o
+x/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAComponent.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection149"Compile /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAComponent.cpped2bcb3aaf34b541^9067073baf34b541^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAComponent.cpp0000000000000000^2507"CompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAComponent.o ../../../addons/ofxAUPluginNew/libs/CAComponent.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/audioIODebug.hmap -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources/i386 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-eebkxgswsuphaeaerztbpbagtdsj/Carbon.h -c /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAComponent.cpp -o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAComponent.o36"07C87D96-1055-43FC-BF59-F3D2631F9F48-
+
+CCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAComponentDescription.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAComponentDescription.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s355774266.847171
+e355774266.991369
+r1
+xCompileC
+xbuild/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAComponentDescription.o
+x/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAComponentDescription.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection160"Compile /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAComponentDescription.cpp40fcd83aaf34b541^8a20fe3aaf34b541^---0#0#0#-19%DVTDocumentLocation2@168"file://localhost/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAComponentDescription.cpp0000000000000000^2551"CompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAComponentDescription.o ../../../addons/ofxAUPluginNew/libs/CAComponentDescription.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/audioIODebug.hmap -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources/i386 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-eebkxgswsuphaeaerztbpbagtdsj/Carbon.h -c /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAComponentDescription.cpp -o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAComponentDescription.o36"51B7B82A-E548-4413-AF42-60164F17FC51-
+
+CCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CADebugMacros.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CADebugMacros.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s355774266.992875
+e355774267.212499
+r1
+xCompileC
+xbuild/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CADebugMacros.o
+x/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CADebugMacros.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection151"Compile /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CADebugMacros.cpp9049fe3aaf34b541^99463b3baf34b541^---0#0#0#-19%DVTDocumentLocation2@159"file://localhost/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CADebugMacros.cpp0000000000000000^2515"CompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CADebugMacros.o ../../../addons/ofxAUPluginNew/libs/CADebugMacros.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/audioIODebug.hmap -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources/i386 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-eebkxgswsuphaeaerztbpbagtdsj/Carbon.h -c /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CADebugMacros.cpp -o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CADebugMacros.o36"E46BB70A-0C6B-46DD-B3C6-E319898443C8-
+
+CCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAStreamBasicDescription.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAStreamBasicDescription.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s355774247.296015
+e355774262.837616
+r1
+xCompileC
+xbuild/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAStreamBasicDescription.o
+x/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAStreamBasicDescription.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection162"Compile /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAStreamBasicDescription.cppa4e24b27af34b541^876ed636af34b541^---0#0#0#-19%DVTDocumentLocation2@170"file://localhost/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAStreamBasicDescription.cpp0000000000000000^2559"CompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAStreamBasicDescription.o ../../../addons/ofxAUPluginNew/libs/CAStreamBasicDescription.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/audioIODebug.hmap -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources/i386 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-eebkxgswsuphaeaerztbpbagtdsj/Carbon.h -c /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/libs/CAStreamBasicDescription.cpp -o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/CAStreamBasicDescription.o36"589EC2E3-0AE2-4CCF-81CE-26C25B7CCB41-
+
+CCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/main-82227D70F1DD098B.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/src/main.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/main-845A7081D9719653.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/example-simple/src/main.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
 
 CCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/main.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/src/main.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-s355458664.500738
-e355458674.156556
+s355536333.353430
+e355536385.756575
 r1
 xCompileC
 xbuild/audioIO.build/Debug/audioIO.build/Objects-normal/i386/main.o
@@ -1518,11 +2149,31 @@ xi386
 xc++
 xcom.apple.compilers.llvmgcc42
 oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/src/main.cppd34b8068de2fb541^d7142872de2fb541^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/src/main.cpp0000000000000000^2415"CompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/main.o src/main.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/audioIODebug.hmap -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources/i386 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-eebkxgswsuphaeaerztbpbagtdsj/Carbon.h -c /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/src/main.cpp -o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/main.o36"375B8176-D57F-4316-A0BB-18F491EB2B4A-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/src/main.cppe19b5acd0d31b541^47cbc1010e31b541^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/src/main.cpp0000000000000000^2415"CompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/main.o src/main.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/audioIODebug.hmap -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources/i386 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-eebkxgswsuphaeaerztbpbagtdsj/Carbon.h -c /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/src/main.cpp -o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/main.o36"008BE21D-9365-4F33-B248-AB950B609FEA-
+
+CCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/ofxAUPlugin.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/src/ofxAUPlugin.mm normal i386 objective-c++ com.apple.compilers.llvmgcc42
+s355774267.030599
+e355774269.323060
+r1
+xCompileC
+xbuild/audioIO.build/Debug/audioIO.build/Objects-normal/i386/ofxAUPlugin.o
+x/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/src/ofxAUPlugin.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Compile /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/src/ofxAUPlugin.mm09fe073baf34b541^a6b4523daf34b541^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/src/ofxAUPlugin.mm0000000000000000^2537"CompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/ofxAUPlugin.o ../../../addons/ofxAUPluginNew/src/ofxAUPlugin.mm normal i386 objective-c++ com.apple.compilers.llvmgcc42    cd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-protocol -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/audioIODebug.hmap -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources/i386 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-cvjwtngxndsyqghkmeuxnqjfqhem/Carbon.h -c /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/src/ofxAUPlugin.mm -o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/ofxAUPlugin.o36"E157CACE-ECF0-49D9-944D-586141E9544C-
+
+CCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/testApp-FAA3DC9B2355198C.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/src/testApp.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/testApp-FCDBCFAC0AE9A654.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../addons/ofxAUPluginNew/example-simple/src/testApp.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
 
 CCompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/testApp.o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/src/testApp.cpp normal i386 c++ com.apple.compilers.llvmgcc42
-s355493936.276924
-e355493939.826877
+s355775589.686139
+e355775591.717831
 r1
 xCompileC
 xbuild/audioIO.build/Debug/audioIO.build/Objects-normal/i386/testApp.o
@@ -1532,17 +2183,17 @@ xi386
 xc++
 xcom.apple.compilers.llvmgcc42
 oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/src/testApp.cppe20347306830b541^efaed3336830b541^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/src/testApp.cpp0000000000000000^2427"CompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/testApp.o src/testApp.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/audioIODebug.hmap -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources/i386 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-eebkxgswsuphaeaerztbpbagtdsj/Carbon.h -c /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/src/testApp.cpp -o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/testApp.o36"A6304B58-96AE-49F5-9DEF-8D429C21D602-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/src/testApp.cpp7ec4af65b434b541^acc5b767b434b541^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/src/testApp.cpp0000000000000000^2427"CompileC build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/testApp.o src/testApp.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/audioIODebug.hmap -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources/i386 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-eebkxgswsuphaeaerztbpbagtdsj/Carbon.h -c /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/src/testApp.cpp -o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/testApp.o36"88A98CB6-30B9-4932-9E3E-4EA509DEE7A8-
 
 CLd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/audioIODebug.app/Contents/MacOS/audioIODebug normal i386
-s355493939.833308
-e355493944.379918
+s355775591.725710
+e355775592.208620
 r1
 xLd
 x/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/audioIODebug.app/Contents/MacOS/audioIODebug
 xnormal
 xi386
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"Link /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/audioIODebug.app/Contents/MacOS/audioIODebug2f6cd5336830b541^4e4261386830b541^---0#0#0#--1694"Ld bin/audioIODebug.app/Contents/MacOS/audioIODebug normal i386    cd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    /Developer/usr/bin/llvm-g++-4.2 -arch i386 -L/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../libs/glut/lib/osx -filelist /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/audioIODebug.LinkFileList -dead_strip ../../../libs/poco/lib/osx/PocoFoundation.a ../../../libs/poco/lib/osx/PocoNet.a ../../../libs/poco/lib/osx/PocoXML.a ../../../libs/poco/lib/osx/PocoUtil.a ../../../libs/tess2/lib/osx/tess2.a ../../../libs/glew/lib/osx/glew.a ../../../libs/cairo/lib/osx/cairo-script-interpreter.a ../../../libs/cairo/lib/osx/cairo.a ../../../libs/cairo/lib/osx/pixman-1.a ../../../libs/fmodex/lib/osx/libfmodex.dylib ../../../libs/rtAudio/lib/osx/rtAudio.a -framework GLUT /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a -framework AGL -framework ApplicationServices -framework AudioToolbox -framework Carbon -framework CoreAudio -framework CoreFoundation -framework CoreServices -framework OpenGL -framework QuickTime -framework AppKit -framework Cocoa -framework IOKit -o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/audioIODebug.app/Contents/MacOS/audioIODebug36"F52A4787-9B99-4EB2-8FDB-10E6915840EA-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"Link /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/audioIODebug.app/Contents/MacOS/audioIODebug2ae1b967b434b541^db6b3568b434b541^---0#0#0#--1715"Ld bin/audioIODebug.app/Contents/MacOS/audioIODebug normal i386    cd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    /Developer/usr/bin/llvm-g++-4.2 -arch i386 -L/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../libs/glut/lib/osx -filelist /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/audioIODebug.LinkFileList -dead_strip ../../../libs/poco/lib/osx/PocoFoundation.a ../../../libs/poco/lib/osx/PocoNet.a ../../../libs/poco/lib/osx/PocoXML.a ../../../libs/poco/lib/osx/PocoUtil.a ../../../libs/tess2/lib/osx/tess2.a ../../../libs/glew/lib/osx/glew.a ../../../libs/cairo/lib/osx/cairo-script-interpreter.a ../../../libs/cairo/lib/osx/cairo.a ../../../libs/cairo/lib/osx/pixman-1.a ../../../libs/fmodex/lib/osx/libfmodex.dylib ../../../libs/rtAudio/lib/osx/rtAudio.a -framework AudioUnit -framework GLUT /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a -framework AGL -framework ApplicationServices -framework AudioToolbox -framework Carbon -framework CoreAudio -framework CoreFoundation -framework CoreServices -framework OpenGL -framework QuickTime -framework AppKit -framework Cocoa -framework IOKit -o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/audioIODebug.app/Contents/MacOS/audioIODebug36"6CBCDDC9-83CE-463A-94C8-14EBA1B3B606-
 
 CPBXCp ../../../libs/glut/lib/osx/GLUT.framework bin/audioIODebug.app/Contents/Frameworks/GLUT.framework
 s355458683.938684
@@ -1554,13 +2205,13 @@ xbin/audioIODebug.app/Contents/Frameworks/GLUT.framework
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy bin/audioIODebug.app/Contents/Frameworks/GLUT.frameworkbb64f07bde2fb541^56104b7cde2fb541^---0#0#0#-19%DVTDocumentLocation2@161"file://localhost/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/audioIODebug.app/Contents/Frameworks/GLUT.framework00f43c07dfffdf42^576"PBXCp ../../../libs/glut/lib/osx/GLUT.framework bin/audioIODebug.app/Contents/Frameworks/GLUT.framework    cd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../libs/glut/lib/osx/GLUT.framework /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/audioIODebug.app/Contents/Frameworks36"4782C38F-0EE4-42BE-AAF0-379A9005581D-
 
 CPhaseScriptExecution "Run Script" /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
-s355493944.387753
-e355493944.568925
+s355775592.217779
+e355775592.249509
 r1
 xPhaseScriptExecution
 xRun Script
 x/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'5f7964386830b541^f4a391386830b541^---0#0#0#--22962"PhaseScriptExecution "Run Script" build/audioIO.build/Debug/audioIO.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh    cd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER johanndiedrick    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386"    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build    setenv BUILD_ROOT /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin    setenv CACHE_ROOT /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/audioIODebug.app    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin    setenv CONFIGURATION_TEMP_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug    setenv CONTENTS_FOLDER_PATH audioIODebug.app/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEFAULT_COMPILER com.apple.compilers.llvmgcc42    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH audioIODebug.app/Contents/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/audioIO.dst    setenv DWARF_DSYM_FILE_NAME audioIODebug.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin    setenv EMBEDDED_PROFILE_NAME embedded.provisionprofile    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH audioIODebug.app/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH audioIODebug.app/Contents/MacOS    setenv EXECUTABLE_NAME audioIODebug    setenv EXECUTABLE_PATH audioIODebug.app/Contents/MacOS/audioIODebug    setenv FILE_LIST /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH audioIODebug.app/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin\"  \"/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 "\"/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME audioIODebug.app    setenv GCC3_VERSION 3.3    setenv GCC_AUTO_VECTORIZATION YES    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_FIX_AND_CONTINUE YES    setenv GCC_ENABLE_SSE3_EXTENSIONS YES    setenv GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS YES    setenv GCC_GENERATE_DEBUGGING_SYMBOLS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN NO    setenv GCC_MODEL_TUNING G4    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvmgcc42    setenv GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS NO    setenv GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO NO    setenv GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL NO    setenv GCC_WARN_UNINITIALIZED_AUTOS NO    setenv GCC_WARN_UNUSED_VALUE NO    setenv GCC_WARN_UNUSED_VARIABLE NO    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_CAIRO "\"../../../libs/cairo/include/cairo\""    setenv HEADER_FMODEX "\"../../../libs/fmodex/include\""    setenv HEADER_FREEIMAGE "\"../../../libs/FreeImage/include\""    setenv HEADER_FREETYPE "\"../../../libs/freetype/include\""    setenv HEADER_FREETYPE2 "\"../../../libs/freetype/include/freetype2\""    setenv HEADER_GLEW "\"../../../libs/glew/include\""    setenv HEADER_OF "\"../../../libs/openFrameworks/**\""    setenv HEADER_POCO "\"../../../libs/poco/include\""    setenv HEADER_RTAUDIO "\"../../../libs/rtaudio/include\""    setenv HEADER_SEARCH_PATHS "\"/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/include\" \"../../../libs/openFrameworks/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/cairo/include/cairo\" \"../../../libs/rtaudio/include\""    setenv HEADER_TESS2 "\"../../../libs/tess2/include\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE openFrameworks-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH audioIODebug.app/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH audioIODebug.app/Contents/Resources/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/audioIO.dst/Users/johanndiedrick/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER johanndiedrick    setenv INSTALL_PATH /Users/johanndiedrick/Applications    setenv INSTALL_ROOT /tmp/audioIO.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH audioIODebug.app/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/audioIODebug-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEGACY_DEVELOPER_DIR /Developer/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin\"                                                              "    setenv LIB_CAIRO1 "\"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\""    setenv LIB_CAIRO2 "\"../../../libs/cairo/lib/osx/cairo.a\""    setenv LIB_CAIRO3 "\"../../../libs/cairo/lib/osx/pixman-1.a\""    setenv LIB_FMODEX "\"../../../libs/fmodex/lib/osx/libfmodex.dylib\""    setenv LIB_FREEIMAGE "\"../../../libs/FreeImage/lib/osx/freeimage.a\""    setenv LIB_FREETYPE "\"../../../libs/freetype/lib/osx/freetype.a\""    setenv LIB_GLEW "\"../../../libs/glew/lib/osx/glew.a\""    setenv LIB_GLUT "\"../../../libs/glut/lib/osx/GLUT.framework/Versions/A/GLUT\""    setenv LIB_POCOFOUNDATION "\"../../../libs/poco/lib/osx/PocoFoundation.a\""    setenv LIB_POCONET "\"../../../libs/poco/lib/osx/PocoNet.a\""    setenv LIB_POCOUTIL "\"../../../libs/poco/lib/osx/PocoUtil.a\""    setenv LIB_POCOXML "\"../../../libs/poco/lib/osx/PocoXML.a\""    setenv LIB_RTAUDIO "\"../../../libs/rtAudio/lib/osx/rtAudio.a\""    setenv LIB_TESS "\"../../../libs/tess2/lib/osx/tess2.a\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/audioIODebug.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH audioIODebug.app/Contents/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11C74    setenv MAC_OS_X_VERSION_ACTUAL 1072    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0702    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal    setenv OBJROOT /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build    setenv OF_CORE_HEADERS "\"../../../libs/openFrameworks/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/cairo/include/cairo\" \"../../../libs/rtaudio/include\""    setenv OF_CORE_LIBS "\"../../../libs/poco/lib/osx/PocoFoundation.a\" \"../../../libs/poco/lib/osx/PocoNet.a\" \"../../../libs/poco/lib/osx/PocoXML.a\" \"../../../libs/poco/lib/osx/PocoUtil.a\" \"../../../libs/tess2/lib/osx/tess2.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\" \"../../../libs/cairo/lib/osx/cairo.a\" \"../../../libs/cairo/lib/osx/pixman-1.a\" \"../../../libs/fmodex/lib/osx/libfmodex.dylib\" \"../../../libs/rtAudio/lib/osx/rtAudio.a\""    setenv OF_PATH ../../..    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CPLUSPLUSFLAGS "-D__MACOSX_CORE__ -lpthread"    setenv OTHER_LDFLAGS "\"../../../libs/poco/lib/osx/PocoFoundation.a\" \"../../../libs/poco/lib/osx/PocoNet.a\" \"../../../libs/poco/lib/osx/PocoXML.a\" \"../../../libs/poco/lib/osx/PocoUtil.a\" \"../../../libs/tess2/lib/osx/tess2.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\" \"../../../libs/cairo/lib/osx/cairo.a\" \"../../../libs/cairo/lib/osx/pixman-1.a\" \"../../../libs/fmodex/lib/osx/libfmodex.dylib\" \"../../../libs/rtAudio/lib/osx/rtAudio.a\""    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH audioIODebug.app/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS c++    setenv PKGINFO_FILE_PATH /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/PkgInfo    setenv PKGINFO_PATH audioIODebug.app/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/MacOSX.platform    setenv PLATFORM_NAME macosx    setenv PLATFORM_PREFERRED_ARCH x86_64    setenv PLATFORM_PRODUCT_BUILD_VERSION 4D502    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH audioIODebug.app/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH audioIODebug.app/Contents/PrivateHeaders    setenv PRODUCT_NAME audioIODebug    setenv PRODUCT_SETTINGS_PATH /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/openFrameworks-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT audioIO    setenv PROJECT_DERIVED_FILE_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/DerivedSources    setenv PROJECT_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    setenv PROJECT_FILE_PATH /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/audioIO.xcodeproj    setenv PROJECT_NAME audioIO    setenv PROJECT_TEMP_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build    setenv PUBLIC_HEADERS_FOLDER_PATH audioIODebug.app/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH audioIODebug.app/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT     setenv SDK_PRODUCT_BUILD_VERSION 11C74    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH audioIODebug.app/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH audioIODebug.app/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    setenv SRCROOT /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_PLATFORMS macosx    setenv SYMROOT /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME audioIO    setenv TARGET_BUILD_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin    setenv TARGET_NAME audioIO    setenv TARGET_TEMP_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build    setenv TEMP_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build    setenv TEMP_FILES_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build    setenv TEMP_FILE_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build    setenv TEMP_ROOT /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build    setenv TEST_AFTER_BUILD NO    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH audioIODebug.app/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER johanndiedrick    setenv USER_APPS_DIR /Users/johanndiedrick/Applications    setenv USER_LIBRARY_DIR /Users/johanndiedrick/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH audioIODebug.app/Contents/version.plist    setenv VERSION_INFO_BUILDER johanndiedrick    setenv VERSION_INFO_FILE audioIODebug_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:audioIODebug  PROJECT:audioIO-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME audioIODebug.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4D502    setenv XCODE_VERSION_ACTUAL 0421    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0420    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh36"258B9C59-ED88-409A-977D-15BCE0C42A59-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'dc673968b434b541^d7de3f68b434b541^---0#0#0#--22978"PhaseScriptExecution "Run Script" build/audioIO.build/Debug/audioIO.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh    cd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER johanndiedrick    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386"    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build    setenv BUILD_ROOT /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin    setenv CACHE_ROOT /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/audioIODebug.app    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin    setenv CONFIGURATION_TEMP_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug    setenv CONTENTS_FOLDER_PATH audioIODebug.app/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEFAULT_COMPILER com.apple.compilers.llvmgcc42    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH audioIODebug.app/Contents/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/audioIO.dst    setenv DWARF_DSYM_FILE_NAME audioIODebug.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin    setenv EMBEDDED_PROFILE_NAME embedded.provisionprofile    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH audioIODebug.app/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH audioIODebug.app/Contents/MacOS    setenv EXECUTABLE_NAME audioIODebug    setenv EXECUTABLE_PATH audioIODebug.app/Contents/MacOS/audioIODebug    setenv FILE_LIST /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH audioIODebug.app/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin\"  \"/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 "\"/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME audioIODebug.app    setenv GCC3_VERSION 3.3    setenv GCC_AUTO_VECTORIZATION YES    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_FIX_AND_CONTINUE YES    setenv GCC_ENABLE_SSE3_EXTENSIONS YES    setenv GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS YES    setenv GCC_GENERATE_DEBUGGING_SYMBOLS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN NO    setenv GCC_MODEL_TUNING G4    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvmgcc42    setenv GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS NO    setenv GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO NO    setenv GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL NO    setenv GCC_WARN_UNINITIALIZED_AUTOS NO    setenv GCC_WARN_UNUSED_VALUE NO    setenv GCC_WARN_UNUSED_VARIABLE NO    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_CAIRO "\"../../../libs/cairo/include/cairo\""    setenv HEADER_FMODEX "\"../../../libs/fmodex/include\""    setenv HEADER_FREEIMAGE "\"../../../libs/FreeImage/include\""    setenv HEADER_FREETYPE "\"../../../libs/freetype/include\""    setenv HEADER_FREETYPE2 "\"../../../libs/freetype/include/freetype2\""    setenv HEADER_GLEW "\"../../../libs/glew/include\""    setenv HEADER_OF "\"../../../libs/openFrameworks/**\""    setenv HEADER_POCO "\"../../../libs/poco/include\""    setenv HEADER_RTAUDIO "\"../../../libs/rtaudio/include\""    setenv HEADER_SEARCH_PATHS "\"/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/include\" \"../../../libs/openFrameworks/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/cairo/include/cairo\" \"../../../libs/rtaudio/include\""    setenv HEADER_TESS2 "\"../../../libs/tess2/include\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE openFrameworks-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH audioIODebug.app/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH audioIODebug.app/Contents/Resources/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/audioIO.dst/Users/johanndiedrick/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER johanndiedrick    setenv INSTALL_PATH /Users/johanndiedrick/Applications    setenv INSTALL_ROOT /tmp/audioIO.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH audioIODebug.app/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/audioIODebug-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEGACY_DEVELOPER_DIR /Developer/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin\"                                                              "    setenv LIB_CAIRO1 "\"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\""    setenv LIB_CAIRO2 "\"../../../libs/cairo/lib/osx/cairo.a\""    setenv LIB_CAIRO3 "\"../../../libs/cairo/lib/osx/pixman-1.a\""    setenv LIB_FMODEX "\"../../../libs/fmodex/lib/osx/libfmodex.dylib\""    setenv LIB_FREEIMAGE "\"../../../libs/FreeImage/lib/osx/freeimage.a\""    setenv LIB_FREETYPE "\"../../../libs/freetype/lib/osx/freetype.a\""    setenv LIB_GLEW "\"../../../libs/glew/lib/osx/glew.a\""    setenv LIB_GLUT "\"../../../libs/glut/lib/osx/GLUT.framework/Versions/A/GLUT\""    setenv LIB_POCOFOUNDATION "\"../../../libs/poco/lib/osx/PocoFoundation.a\""    setenv LIB_POCONET "\"../../../libs/poco/lib/osx/PocoNet.a\""    setenv LIB_POCOUTIL "\"../../../libs/poco/lib/osx/PocoUtil.a\""    setenv LIB_POCOXML "\"../../../libs/poco/lib/osx/PocoXML.a\""    setenv LIB_RTAUDIO "\"../../../libs/rtAudio/lib/osx/rtAudio.a\""    setenv LIB_TESS "\"../../../libs/tess2/lib/osx/tess2.a\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal/i386/audioIODebug.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH audioIODebug.app/Contents/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11C74    setenv MAC_OS_X_VERSION_ACTUAL 1072    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0702    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Objects-normal    setenv OBJROOT /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build    setenv OF_CORE_HEADERS "\"../../../libs/openFrameworks/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/cairo/include/cairo\" \"../../../libs/rtaudio/include\""    setenv OF_CORE_LIBS "\"../../../libs/poco/lib/osx/PocoFoundation.a\" \"../../../libs/poco/lib/osx/PocoNet.a\" \"../../../libs/poco/lib/osx/PocoXML.a\" \"../../../libs/poco/lib/osx/PocoUtil.a\" \"../../../libs/tess2/lib/osx/tess2.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\" \"../../../libs/cairo/lib/osx/cairo.a\" \"../../../libs/cairo/lib/osx/pixman-1.a\" \"../../../libs/fmodex/lib/osx/libfmodex.dylib\" \"../../../libs/rtAudio/lib/osx/rtAudio.a\""    setenv OF_PATH ../../..    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CPLUSPLUSFLAGS "-D__MACOSX_CORE__ -lpthread"    setenv OTHER_LDFLAGS "\"../../../libs/poco/lib/osx/PocoFoundation.a\" \"../../../libs/poco/lib/osx/PocoNet.a\" \"../../../libs/poco/lib/osx/PocoXML.a\" \"../../../libs/poco/lib/osx/PocoUtil.a\" \"../../../libs/tess2/lib/osx/tess2.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\" \"../../../libs/cairo/lib/osx/cairo.a\" \"../../../libs/cairo/lib/osx/pixman-1.a\" \"../../../libs/fmodex/lib/osx/libfmodex.dylib\" \"../../../libs/rtAudio/lib/osx/rtAudio.a\""    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH audioIODebug.app/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS "c++ objective-c++"    setenv PKGINFO_FILE_PATH /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/PkgInfo    setenv PKGINFO_PATH audioIODebug.app/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/MacOSX.platform    setenv PLATFORM_NAME macosx    setenv PLATFORM_PREFERRED_ARCH x86_64    setenv PLATFORM_PRODUCT_BUILD_VERSION 4D502    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH audioIODebug.app/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH audioIODebug.app/Contents/PrivateHeaders    setenv PRODUCT_NAME audioIODebug    setenv PRODUCT_SETTINGS_PATH /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/openFrameworks-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT audioIO    setenv PROJECT_DERIVED_FILE_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/DerivedSources    setenv PROJECT_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    setenv PROJECT_FILE_PATH /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/audioIO.xcodeproj    setenv PROJECT_NAME audioIO    setenv PROJECT_TEMP_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build    setenv PUBLIC_HEADERS_FOLDER_PATH audioIODebug.app/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH audioIODebug.app/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT     setenv SDK_PRODUCT_BUILD_VERSION 11C74    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH audioIODebug.app/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH audioIODebug.app/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    setenv SRCROOT /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_PLATFORMS macosx    setenv SYMROOT /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME audioIO    setenv TARGET_BUILD_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin    setenv TARGET_NAME audioIO    setenv TARGET_TEMP_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build    setenv TEMP_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build    setenv TEMP_FILES_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build    setenv TEMP_FILE_DIR /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build    setenv TEMP_ROOT /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build    setenv TEST_AFTER_BUILD NO    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH audioIODebug.app/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER johanndiedrick    setenv USER_APPS_DIR /Users/johanndiedrick/Applications    setenv USER_LIBRARY_DIR /Users/johanndiedrick/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH audioIODebug.app/Contents/version.plist    setenv VERSION_INFO_BUILDER johanndiedrick    setenv VERSION_INFO_FILE audioIODebug_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:audioIODebug  PROJECT:audioIO-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME audioIODebug.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4D502    setenv XCODE_VERSION_ACTUAL 0421    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0420    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh36"B6E282E0-DC40-4204-938B-8F780FD7B37B-
 
 CProcessInfoPlistFile /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/audioIODebug.app/Contents/Info.plist openFrameworks-Info.plist
 s355458656.697811
@@ -1571,8 +2222,25 @@ x/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/joha
 xopenFrameworks-Info.plist
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Process openFrameworks-Info.plistfa41b560de2fb541^3222b960de2fb541^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/openFrameworks-Info.plist0000000000000000^552"ProcessInfoPlistFile bin/audioIODebug.app/Contents/Info.plist openFrameworks-Info.plist    cd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    builtin-infoPlistUtility openFrameworks-Info.plist -genpkginfo /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/audioIODebug.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/audioIODebug.app/Contents/Info.plist36"7E82A43B-60DA-466C-A758-A42AE266E29D-
 
+CProcessPCH++ /Users/johanndiedrick/Library/Developer/Xcode/DerivedData/audioIO-cimmhizxzwhgcsbepbadpppvobfx/Index/PrecompiledHeaders/Carbon-abdlelvpfnhsppaamrjiycyssrkj_ast/Carbon.h.pth /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
 CProcessPCH++ /Users/johanndiedrick/Library/Developer/Xcode/DerivedData/audioIO-cimmhizxzwhgcsbepbadpppvobfx/Index/PrecompiledHeaders/Carbon-bilzdmespagckkbahbjdowzfwjst_ast/Carbon.h.pth /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
+
+CProcessPCH++ /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-cvjwtngxndsyqghkmeuxnqjfqhem/Carbon.h.gch /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 objective-c++ com.apple.compilers.llvmgcc42
+s355774247.289235
+e355774264.990610
+r1
+xProcessPCH++
+x/var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-cvjwtngxndsyqghkmeuxnqjfqhem/Carbon.h.gch
+x/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because linking not done
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Precompile /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h5f264a27af34b541^5b98fd38af34b541^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h0000000000000000^2380"ProcessPCH++ /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-cvjwtngxndsyqghkmeuxnqjfqhem/Carbon.h.gch /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 objective-c++ com.apple.compilers.llvmgcc42    cd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-protocol -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/audioIODebug.hmap -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources/i386 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -c /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h -o /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-cvjwtngxndsyqghkmeuxnqjfqhem/Carbon.h.gch36"3D84D669-B407-46F0-B17E-AA1CCF98DF66-
 
 CProcessPCH++ /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-eebkxgswsuphaeaerztbpbagtdsj/Carbon.h.gch /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.llvmgcc42
 s355458656.730954
@@ -1589,10 +2257,10 @@ oi686-apple-darwin11-llvm-gcc-4.2: -lpthread: linker input file unused because l
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Precompile /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h1749bb60de2fb541^dc667e68de2fb541^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h0000000000000000^2346"ProcessPCH++ /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-eebkxgswsuphaeaerztbpbagtdsj/Carbon.h.gch /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -msse3 -mssse3 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/audioIODebug.hmap -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources/i386 -I/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/build/audioIO.build/Debug/audioIO.build/DerivedSources -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin -F/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -c /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h -o /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-eebkxgswsuphaeaerztbpbagtdsj/Carbon.h.gch36"7025E4A2-4037-4FE4-9A48-D0C65520592A-
 
 CTouch /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/audioIODebug.app
-s355493944.585097
-e355493944.596758
+s355775592.267044
+e355775592.272676
 r1
 xTouch
 x/Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/audioIODebug.app
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Touch /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/audioIODebug.app30d895386830b541^71c698386830b541^---0#0#0#--257"Touch bin/audioIODebug.app    cd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    /usr/bin/touch -c /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/audioIODebug.app36"EEF76B74-591F-4D01-8A80-B3900EB67D6E-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Touch /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/audioIODebug.appdf6b4468b434b541^25cf4568b434b541^---0#0#0#--257"Touch bin/audioIODebug.app    cd /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO    /usr/bin/touch -c /Users/johanndiedrick/Documents/OpenFrameworks/of_preRelease_v007_osx/apps/johann/audioIO/bin/audioIODebug.app36"603CF855-072F-490A-8E77-65C5633BFFA0-
 
