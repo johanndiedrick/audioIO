@@ -30,8 +30,9 @@ void testApp::setup()
 
     
    // delay.setParam("feedback", 99);
-    delay.setParam("delay time", 0.5);
-
+    delay.setParam("delay time", 2);
+    delay.setParam("dry/wet mix", 100);
+    delay.setParam("feedback", 0);
 }
 
 void testApp::draw(){
@@ -89,7 +90,7 @@ void testApp::draw(){
     ofPopMatrix();
 	ofPopStyle();
 
-    cout << leftAudio.size() << "\n";     
+    //cout << leftAudio.size() << "\n";     
     
 }
 
