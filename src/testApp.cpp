@@ -1,7 +1,12 @@
 #include "testApp.h"
-#include <stdio.h>
-
 #include "ofxAUPlugin.h"
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <cstdlib> 
+
 
 ofxAUPlugin delay;
 
@@ -28,11 +33,15 @@ void testApp::setup()
 
     delay.listParamInfo();
 
+    //adjust delay parameters here
     
-   // delay.setParam("feedback", 99);
-    delay.setParam("delay time", 2);
+    delay.setParam("delay time", 1);
     delay.setParam("dry/wet mix", 100);
     delay.setParam("feedback", 0);
+    
+    /* initialize random seed: */
+    srand ( time(NULL) );
+    
 }
 
 void testApp::draw(){
@@ -115,6 +124,19 @@ void testApp::audioOut    (float * output, int bufferSize, int nChannels)
         output[i*2]     = leftAudio[i] ;  
         output[(i*2)+1] = rightAudio[i];  
     }  
+    
+    //alter audio before sending it to output
+   // for (int i=0; i<bufferSize; i++){
+    
+    
+    //audio degredation test
+    for (int i=0; i<512; i++){
+        int randomNumber = rand() % 512;
+        output[randomNumber*2] = 0;
+         output[(randomNumber*2)+1] = 0;
+    }
+    
+  
     delay.process(output, output);
 
 }  

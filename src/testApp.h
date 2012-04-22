@@ -41,8 +41,7 @@ class testApp : public ofBaseApp{
 		vector <float> rightAudioOut;
         
         int bufferSize;
-    
-    
+        
 		
 };
 
