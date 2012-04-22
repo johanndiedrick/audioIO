@@ -27,7 +27,7 @@ void testApp::setup()
     leftAudio.assign(bufferSize, 0.0);
     rightAudio.assign(bufferSize, 0.0);  
     
-    delay.loadPreset("delay.aupreset");
+    delay.loadPreset("delay.aupreset"); // loads delay.aupreset in bin/data
     
     printf("input ch:%i, output ch:%i\n", delay.numInput(), delay.numOutput());
 
@@ -134,6 +134,33 @@ void testApp::audioOut    (float * output, int bufferSize, int nChannels)
         int randomNumber = rand() % 512;
         output[randomNumber*2] = 0;
          output[(randomNumber*2)+1] = 0;
+      
+        output[randomNumber+1*2] = 0;
+        output[(randomNumber+1*2)+1] = 0;
+        
+        output[randomNumber+2*2] = 0;
+        output[(randomNumber+2*2)+1] = 0;
+        
+        output[randomNumber+3*2] = 0;
+        output[(randomNumber+3*2)+1] = 0;
+        
+        output[randomNumber+4*2] = 0;
+        output[(randomNumber+4*2)+1] = 0;
+        
+        output[randomNumber+5*2] = 0;
+        output[(randomNumber+5*2)+1] = 0;
+        
+        output[randomNumber+6*2] = 0;
+        output[(randomNumber+6*2)+1] = 0;
+        
+        output[randomNumber+7*2] = 0;
+        output[(randomNumber+7*2)+1] = 0;
+        
+        output[randomNumber+8*2] = 0;
+        output[(randomNumber+8*2)+1] = 0;
+        
+        output[randomNumber+9*2] = 0;
+        output[(randomNumber+9*2)+1] = 0;
     }
     
   
